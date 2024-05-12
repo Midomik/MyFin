@@ -8,7 +8,7 @@ import { BudgetingPage } from '../pages/BudgetingPage';
 import { SettingsPage } from '../pages/SettingsPage';
 import { ChangeAvatarPage } from '../pages/ChangeAvatarPage';
 import { SignInPage } from '../pages/SignInPage';
-import { SignUpPage } from '../pages/SignUpPage';
+// import { SignUpPage } from '../pages/SignUpPage';
 import { App } from './App';
 
 export const Router: FC = () => {
@@ -24,7 +24,7 @@ export const Router: FC = () => {
           <Route path='settings/change-avatar' element={<ChangeAvatarPage />} />
 
           <Route path='signin' element={<SignInPage />} />
-          <Route path='signup' element={<SignUpPage />} />
+          {/* <Route path='signup' element={<SignUpPage />} /> */}
           <Route path='*' element={<NotFoundPage />} />
         </Route>
       </Routes>
