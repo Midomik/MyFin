@@ -13,7 +13,7 @@ import { App } from './App';
 
 export const Router: FC = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/MyFin'>
       <Routes>
         <Route path='/' element={<App />}>
           <Route index element={<HomePage />} />
